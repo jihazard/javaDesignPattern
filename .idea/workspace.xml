@@ -2,17 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31ef067c-23de-4091-8994-f62a90a612f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Domain/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Domain/Rental.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/pricePolicy/BookDiscountPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/pricePolicy/MemberDiscountPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/pricePolicy/OrdinaryPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/pricePolicy/PricePolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/Ball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/BallFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/BlueDrawStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/DirectionStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/DrawStreategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/Field.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/HorizonalMoveStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/RedDrawStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/VerticalMoveStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter5_robot/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter5_robot/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaDesignPattern/chapter5_robot/ExampleCode/Domain/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaDesignPattern/chapter5_robot/ExampleCode/Domain/Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaDesignPattern/chapter5_robot/ExampleCode/Domain/Rental.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaDesignPattern/chapter5_robot/ExampleCode/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaDesignPattern/chapter5_robot/ExampleCode/pricePolicy/BookDiscountPrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaDesignPattern/chapter5_robot/ExampleCode/pricePolicy/MemberDiscountPrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaDesignPattern/chapter5_robot/ExampleCode/pricePolicy/OrdinaryPrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaDesignPattern/chapter5_robot/ExampleCode/pricePolicy/PricePolicy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/BookProject/Domain/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/BookProject/Domain/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Domain/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/BookProject/Domain/Rental.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/BookProject/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/pricePolicy/BookDiscountPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/BookProject/pricePolicy/BookDiscountPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/pricePolicy/MemberDiscountPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/BookProject/pricePolicy/MemberDiscountPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/pricePolicy/OrdinaryPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/BookProject/pricePolicy/OrdinaryPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/pricePolicy/PricePolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/BookProject/pricePolicy/PricePolicy.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,26 +51,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MD" value="8" />
-          <entry key="java" value="45" />
+          <entry key="java" value="57" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="45" />
+          <entry key="JAVA" value="57" />
           <entry key="Markdown" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="MD" value="3712" />
-          <entry key="java" value="3300" />
+          <entry key="java" value="5592" />
           <entry key="md" value="4347" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3300" />
+          <entry key="JAVA" value="5592" />
           <entry key="Markdown" value="8059" />
         </counts>
       </usages-collector>
@@ -64,166 +80,131 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6832461">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/chapter5_robot/result_Code/Robot/Robot.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#114#115#0" expanded="true" />
-                    <element signature="e#146#147#0" expanded="true" />
-                    <element signature="e#204#205#0" expanded="true" />
-                    <element signature="e#458#459#0" expanded="true" />
-                    <element signature="e#506#507#0" expanded="true" />
-                    <element signature="e#577#578#0" expanded="true" />
-                    <element signature="e#631#632#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/chapter5_robot/README.MD">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="FIRST">
-                  <first_editor relative-caret-position="383">
-                    <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Domain/Member.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#234#235#0" expanded="true" />
-                    <element signature="e#261#262#0" expanded="true" />
-                    <element signature="e#303#304#0" expanded="true" />
-                    <element signature="e#343#344#0" expanded="true" />
-                    <element signature="e#377#378#0" expanded="true" />
-                    <element signature="e#410#411#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Domain/Book.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#323#324#0" expanded="true" />
-                    <element signature="e#350#351#0" expanded="true" />
-                    <element signature="e#379#380#0" expanded="true" />
-                    <element signature="e#407#408#0" expanded="true" />
-                    <element signature="e#442#443#0" expanded="true" />
-                    <element signature="e#476#477#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Domain/Rental.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="209">
-                  <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-                  <folding>
-                    <element signature="e#389#390#0" expanded="true" />
-                    <element signature="e#433#434#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/pricePolicy/PricePolicy.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/pricePolicy/OrdinaryPrice.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="95">
-                  <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-                  <folding>
-                    <element signature="e#157#158#0" expanded="true" />
-                    <element signature="e#181#182#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/pricePolicy/MemberDiscountPrice.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="95">
-                  <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-                  <folding>
-                    <element signature="e#163#164#0" expanded="true" />
-                    <element signature="e#198#199#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/pricePolicy/BookDiscountPrice.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="95">
-                  <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-                  <folding>
-                    <element signature="e#162#163#0" expanded="true" />
-                    <element signature="e#192#193#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/README.MD">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="FIRST">
-                  <first_editor relative-caret-position="294">
-                    <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/BallFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/Ball.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+              <folding>
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#819#820#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
+                <element signature="e#1031#1032#0" expanded="true" />
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#1295#1296#0" expanded="true" />
+                <element signature="e#1345#1346#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/HorizonalMoveStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/VerticalMoveStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/RedDrawStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <element signature="e#142#143#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/BlueDrawStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+              <folding>
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/DrawStreategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/DirectionStrategy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/Field.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -233,23 +214,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getxInterval</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter3_Solid/autoplayMp3/MP3.java" />
-        <option value="$PROJECT_DIR$/src/chapter3_Solid/autoplayMp3/ReamTimeProvider.java" />
-        <option value="$PROJECT_DIR$/src/chapter3_Solid/autoplayMp3/FakeTimeProvider.java" />
-        <option value="$PROJECT_DIR$/src/chapter3_Solid/autoplayMp3/TimeReminder.java" />
-        <option value="$PROJECT_DIR$/src/chapter3_Solid/autoplayMp3/Main.java" />
-        <option value="$PROJECT_DIR$/src/chapter3_Solid/autoplayMp3/result_Code/Main.java" />
-        <option value="$PROJECT_DIR$/src/chapter3_Solid/autoplayMp3/result_Code/ReamTimeProvider.java" />
-        <option value="$PROJECT_DIR$/src/chapter3_Solid/autoplayMp3/result_Code/domain/TimeReminder.java" />
-        <option value="$PROJECT_DIR$/src/chapter3_Solid/autoplayMp3/result_Code/view/Main.java" />
-        <option value="$PROJECT_DIR$/src/chapter3_Solid/LSP/bag_Code/Bag.java" />
-        <option value="$PROJECT_DIR$/src/chapter3_Solid/LSP/bag_Code/DiscountBag.java" />
         <option value="$PROJECT_DIR$/src/chapter3_Solid/DIP/kid_Code/Kid.java" />
         <option value="$PROJECT_DIR$/src/chapter3_Solid/DIP/kid_Code/Toy.java" />
         <option value="$PROJECT_DIR$/src/chapter3_Solid/DIP/kid_Code/Robot.java" />
@@ -290,6 +265,17 @@
         <option value="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/pricePolicy/MemberDiscountPrice.java" />
         <option value="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/pricePolicy/BookDiscountPrice.java" />
         <option value="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Main.java" />
+        <option value="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/BookProject/Main.java" />
+        <option value="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/DirectionStrategy.java" />
+        <option value="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/DrawStreategy.java" />
+        <option value="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/VerticalMoveStrategy.java" />
+        <option value="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/RedDrawStrategy.java" />
+        <option value="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/BlueDrawStrategy.java" />
+        <option value="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/BallFrame.java" />
+        <option value="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/Field.java" />
+        <option value="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/Ball.java" />
+        <option value="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/HorizonalMoveStrategy.java" />
+        <option value="$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/Main.java" />
       </list>
     </option>
   </component>
@@ -343,15 +329,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chapter5_robot" type="462c0819:PsiDirectoryNode" />
               <item name="ExampleCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaDesignPattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter5_robot" type="462c0819:PsiDirectoryNode" />
-              <item name="ExampleCode" type="462c0819:PsiDirectoryNode" />
-              <item name="pricePolicy" type="462c0819:PsiDirectoryNode" />
+              <item name="Swing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -365,15 +343,15 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/study/javaDesignPattern/src/chapter5_robot/TaekwonV.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534673993411" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534677717112" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="chapter5_robot.ExampleCode.Swing" />
       <recent name="chapter5_robot.ExampleCode" />
       <recent name="chapter5_robot.result_Code" />
       <recent name="chapter3_Solid.DIP.kid_Code" />
       <recent name="chapter3_Solid.autoplayMp3" />
-      <recent name="chapter3_Solid" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -416,11 +394,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter5_robot.ExampleCode.Main" />
+      <option name="MAIN_CLASS_NAME" value="chapter5_robot.ExampleCode.Swing.Main" />
       <module name="javaDesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter5_robot.ExampleCode.*" />
+          <option name="PATTERN" value="chapter5_robot.ExampleCode.Swing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -444,6 +422,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="chapter5_robot.basic_Code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter5_robot.ExampleCode.BookProject.Main" />
+      <module name="javaDesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter5_robot.ExampleCode.BookProject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -486,9 +477,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
@@ -505,12 +496,12 @@
       <updated>1534308399502</updated>
       <workItem from="1534308416562" duration="3151000" />
       <workItem from="1534585909377" duration="7769000" />
-      <workItem from="1534666862556" duration="7054000" />
+      <workItem from="1534666862556" duration="10773000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17974000" />
+    <option name="totallyTimeSpent" value="21693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -553,66 +544,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter3_Solid/FuelTankMonitoring.java" />
-    <entry file="file://$PROJECT_DIR$/src/chapter3_Solid/autoplayMp3/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter3_Solid/autoplayMp3/basic_Code/TimeReminder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter3_Solid/autoplayMp3/basic_Code/MP3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter3_Solid/autoplayMp3/result_Code/domain/MP3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter3_Solid/autoplayMp3/result_Code/view/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter3_Solid/autoplayMp3/result_Code/domain/TimeReminder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter3_Solid/autoplayMp3/result_Code/domain/TimeProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter3_Solid/autoplayMp3/result_Code/domain/ReamTimeProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -934,17 +865,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="294">
-            <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/pricePolicy/BookDiscountPrice.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/BookProject/pricePolicy/BookDiscountPrice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
@@ -955,7 +876,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Domain/Book.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/BookProject/Domain/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -970,7 +891,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Domain/Member.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/BookProject/pricePolicy/OrdinaryPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/BookProject/pricePolicy/PricePolicy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/BookProject/Domain/Rental.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <folding>
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="9" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/BookProject/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/BookProject/pricePolicy/MemberDiscountPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/BookProject/Domain/Member.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -985,53 +966,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/pricePolicy/MemberDiscountPrice.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/DirectionStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/DrawStreategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/VerticalMoveStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/RedDrawStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/pricePolicy/OrdinaryPrice.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/BlueDrawStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="133">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/pricePolicy/PricePolicy.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/BallFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Domain/Rental.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding>
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        <state relative-caret-position="100">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/Ball.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="31" lean-forward="true" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+          <folding>
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+            <element signature="e#1345#1346#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/HorizonalMoveStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/ExampleCode/Swing/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
         </state>
       </provider>
     </entry>

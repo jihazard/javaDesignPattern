@@ -1,11 +1,11 @@
-package chapter5_robot.ExampleCode;
+package chapter5_robot.ExampleCode.BookProject;
 
-import chapter5_robot.ExampleCode.Domain.Book;
-import chapter5_robot.ExampleCode.Domain.Member;
-import chapter5_robot.ExampleCode.Domain.Rental;
-import chapter5_robot.ExampleCode.pricePolicy.BookDiscountPrice;
-import chapter5_robot.ExampleCode.pricePolicy.MemberDiscountPrice;
-import chapter5_robot.ExampleCode.pricePolicy.OrdinaryPrice;
+import chapter5_robot.ExampleCode.BookProject.Domain.Book;
+import chapter5_robot.ExampleCode.BookProject.Domain.Member;
+import chapter5_robot.ExampleCode.BookProject.Domain.Rental;
+import chapter5_robot.ExampleCode.BookProject.pricePolicy.BookDiscountPrice;
+import chapter5_robot.ExampleCode.BookProject.pricePolicy.MemberDiscountPrice;
+import chapter5_robot.ExampleCode.BookProject.pricePolicy.OrdinaryPrice;
 
 public class Main {
     public static void main(String[] args) {

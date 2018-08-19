@@ -1,6 +1,6 @@
-package chapter5_robot.ExampleCode.Domain;
+package chapter5_robot.ExampleCode.BookProject.Domain;
 
-import chapter5_robot.ExampleCode.pricePolicy.PricePolicy;
+import chapter5_robot.ExampleCode.BookProject.pricePolicy.PricePolicy;
 
 public class Rental {
     private Member member;

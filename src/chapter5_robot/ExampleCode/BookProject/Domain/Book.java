@@ -1,4 +1,4 @@
-package chapter5_robot.ExampleCode.Domain;
+package chapter5_robot.ExampleCode.BookProject.Domain;
 
 public class Book {
     private String name;

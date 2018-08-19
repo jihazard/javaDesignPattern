@@ -1,4 +1,4 @@
-package chapter5_robot.ExampleCode.pricePolicy;
+package chapter5_robot.ExampleCode.BookProject.pricePolicy;
 
 public class OrdinaryPrice implements PricePolicy {
     @Override

@@ -7,10 +7,11 @@ public class Main {
         Ball[] balls = new Ball[5];
         for(int i=0; i<balls.length;i++){
             balls[i] = new Ball(INIT[i],INIT[i]);
-            balls[i].setDirectionStrategy(new VerticalMoveStrategy());
+            balls[i].setDirectionStrategy(new HorizonalMoveStrategy());
             balls[i].setDrawStreategy(new RedDrawStrategy());
-            balls[i].draw();
+
             balls[i].start();
+
 
 
         }

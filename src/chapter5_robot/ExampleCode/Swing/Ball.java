@@ -68,5 +68,6 @@ public class Ball extends Thread {
     public void run(){
         draw();
         move();
+        System.out.println("런!");
     }
 }

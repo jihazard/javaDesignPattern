@@ -9,11 +9,13 @@ public class HorizonalMoveStrategy extends DirectionStrategy {
            if((ball.getX() < 0 && ball.getXinterval() < 0) ||  ball.getX() + Ball.SIZE > BallFrame.WIDTH - 15 && ball.getXinterval() >0){
                ball.setInterval(-ball.getXinterval(),0);
            }else {
-               ball.setInterval(ball.getXinterval(),10);
+               System.out.println("엘슨데?");
            }
 
            try{
-               Thread.sleep(100);
+               Thread.sleep(2000);
+               ball.run();
+               System.out.println("여기런! horizen");
            }catch (InterruptedException e){
 
            }

@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31ef067c-23de-4091-8994-f62a90a612f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot2/baseCode/Atom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot2/baseCode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot2/baseCode/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot2/baseCode/TaekwonV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot2/baseCode/resultCode/Atom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot2/baseCode/resultCode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot2/baseCode/resultCode/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot2/baseCode/resultCode/inter/AttackStrate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot2/baseCode/resultCode/inter/FlyStrate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot2/baseCode/resultCode/inter/MissleAttack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot2/baseCode/resultCode/inter/MovingStrate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot2/baseCode/resultCode/inter/PunchAttack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5_robot2/baseCode/resultCode/inter/WalkingStrate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter6_printManager_SingleTon/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter6_printManager_SingleTon/basicCode/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter6_printManager_SingleTon/basicCode/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter6_printManager_SingleTon/basicCode/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,26 +32,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MD" value="8" />
-          <entry key="java" value="76" />
+          <entry key="java" value="80" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="76" />
+          <entry key="JAVA" value="80" />
           <entry key="Markdown" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="MD" value="3712" />
-          <entry key="java" value="6711" />
+          <entry key="java" value="7287" />
           <entry key="md" value="4347" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6711" />
+          <entry key="JAVA" value="7287" />
           <entry key="Markdown" value="8059" />
         </counts>
       </usages-collector>
@@ -73,54 +64,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter5_robot2/baseCode/TaekwonV.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#97#98#0" expanded="true" />
-                <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#104#105#0" expanded="true" />
-                <element signature="e#123#124#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter5_robot2/baseCode/resultCode/Robot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="30" column="44" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#722#723#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter5_robot2/baseCode/resultCode/Atom.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter5_robot2/baseCode/resultCode/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
@@ -128,6 +71,50 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter6_printManager_SingleTon/A.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter6_printManager_SingleTon/basicCode/Printer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+              <folding>
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter6_printManager_SingleTon/basicCode/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+              <folding>
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#162#163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter6_printManager_SingleTon/basicCode/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -193,15 +180,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter5_robot2/baseCode/resultCode/inter/AttackStrate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -227,10 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter5_robot/Main.java" />
-        <option value="$PROJECT_DIR$/src/chapter5_robot/Robot.java" />
-        <option value="$PROJECT_DIR$/src/chapter5_robot/basic_Code/Main.java" />
-        <option value="$PROJECT_DIR$/src/chapter5_robot/result_Code/MoveStrategy.java" />
         <option value="$PROJECT_DIR$/src/chapter5_robot/result_Code/AttackStreategy.java" />
         <option value="$PROJECT_DIR$/src/chapter5_robot/result_Code/Robot.java" />
         <option value="$PROJECT_DIR$/src/chapter5_robot/result_Code/Move/Walk.java" />
@@ -278,6 +252,10 @@
         <option value="$PROJECT_DIR$/src/chapter5_robot2/baseCode/resultCode/inter/MissleAttack.java" />
         <option value="$PROJECT_DIR$/src/chapter5_robot2/baseCode/resultCode/inter/PunchAttack.java" />
         <option value="$PROJECT_DIR$/src/chapter5_robot2/baseCode/resultCode/Main.java" />
+        <option value="$PROJECT_DIR$/src/chapter6_printManager_SingleTon/A.java" />
+        <option value="$PROJECT_DIR$/src/chapter6_printManager_SingleTon/basicCode/Printer.java" />
+        <option value="$PROJECT_DIR$/src/chapter6_printManager_SingleTon/basicCode/User.java" />
+        <option value="$PROJECT_DIR$/src/chapter6_printManager_SingleTon/basicCode/Main.java" />
       </list>
     </option>
   </component>
@@ -315,6 +293,19 @@
             </path>
             <path>
               <item name="javaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter6_printManager_SingleTon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javaDesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter6_printManager_SingleTon" type="462c0819:PsiDirectoryNode" />
+              <item name="basicCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javaDesignPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -328,7 +319,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/study/javaDesignPattern/src/chapter5_robot/TaekwonV.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539504704998" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539505832860" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
@@ -356,7 +347,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter3_Solid.ISP.complex_Code.Main" />
       <module name="javaDesignPattern" />
@@ -409,12 +400,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter6_printManager_SingleTon.basicCode.Main" />
       <module name="javaDesignPattern" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter6_printManager_SingleTon.basicCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -485,19 +479,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -516,17 +510,18 @@
       <workItem from="1534666862556" duration="11894000" />
       <workItem from="1535185949876" duration="598000" />
       <workItem from="1538204030072" duration="2515000" />
-      <workItem from="1539501147808" duration="3554000" />
+      <workItem from="1539501147808" duration="4630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29481000" />
+    <option name="totallyTimeSpent" value="30557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21677852" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21677852" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -541,7 +536,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2997159" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2997159" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32954547" />
@@ -563,37 +558,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter3_Solid/ISP/complex_Code/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter3_Solid/SOLID.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="539">
-            <caret line="196" column="3" selection-start-line="196" selection-start-column="3" selection-end-line="196" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/result_Code/Robot/Attack/AttackStreategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter5_robot/result_Code/Robot/Move/Walk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter5_robot/result_Code/Robot/Move/Fly.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1007,6 +971,42 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter6_printManager_SingleTon/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter6_printManager_SingleTon/basicCode/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter6_printManager_SingleTon/basicCode/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter6_printManager_SingleTon/basicCode/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>

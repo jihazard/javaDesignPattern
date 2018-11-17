@@ -17,4 +17,7 @@ public class Light {
     public void off_button_pushed(){
         state.off_button_pushed(this);
     }
+
+    public void on() {
+    }
 }

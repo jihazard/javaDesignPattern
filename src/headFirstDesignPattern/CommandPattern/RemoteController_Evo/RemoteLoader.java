@@ -35,5 +35,10 @@ public class RemoteLoader {
         remoteContorl.onButtonWasPushed(1);
         remoteContorl.offButtonWasPushed(1);
 
+        for (int i = 0; i <=10 ; i++) {
+            i +=5;
+            System.out.println("---" + i);
+        }
+
     }
 }
